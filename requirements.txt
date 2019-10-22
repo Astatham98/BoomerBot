@@ -1,0 +1,4 @@
+discord
+mutagen
+pandas
+PyNaCl
