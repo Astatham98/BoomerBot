@@ -18,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/Bot_main.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="549">
-                <caret line="85" column="71" selection-start-line="85" selection-start-column="71" selection-end-line="85" selection-end-column="71" />
+              <first_editor relative-caret-position="296">
+                <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                 </folding>
@@ -116,7 +116,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571784033999" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571784207041" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -207,6 +207,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1508" y="1282" width="1440" height="803" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17739628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -305,8 +306,8 @@
     <entry file="file://$PROJECT_DIR$/Bot_main.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="549">
-            <caret line="85" column="71" selection-start-line="85" selection-start-column="71" selection-end-line="85" selection-end-column="71" />
+          <first_editor relative-caret-position="296">
+            <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
             </folding>
