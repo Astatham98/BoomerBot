@@ -3,7 +3,10 @@ import random
 import time
 from mutagen.mp3 import MP3
 import pandas as pd
+from num2words import num2words
+import os
 
+key = os.environ.get('BOOMER_KEY')
 
 def emojifi(message):
     return_message = ""
@@ -11,7 +14,9 @@ def emojifi(message):
         if letter.isalpha():
             return_message += " :regional_indicator_" + letter + ":"
         elif letter.isspace():
-            return_message += " "
+            return_message += "   "
+        elif letter.isdigit():
+            return_message += ":{}:".format(num2words(letter), lang='en')
     return return_message
 
 
@@ -20,7 +25,8 @@ def altcaps(message):
     for letterPos in range(len(message)):
         if message[letterPos].isalpha():
             letter = message[letterPos]
-            if letterPos % 2 == 0:
+            rand = random.randint(0, 1)
+            if rand:
                 return_message += letter.upper()
             else:
                 return_message += letter
@@ -83,4 +89,4 @@ async def on_message(message):
         except AttributeError:
             await message.channel.send("Stinky")
 
-client.run('NjMwMTE0MDg5MDQ5MzkxMTEz.XZjlyg.jX5xEzEnA81hHIsYU8acex3xV2w')
+client.run(key)

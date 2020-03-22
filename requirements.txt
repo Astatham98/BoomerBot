@@ -1,4 +1,5 @@
-discord
+discord.py
 mutagen
 pandas
 PyNaCl
+num2words
