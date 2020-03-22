@@ -71,7 +71,8 @@ async def on_message(message):
         await message.channel.send("Hell yeah brother")
 
     elif message.content.lower().find("hillary clinton") != -1:
-        videos = ["https://www.youtube.com/watch?v=pjS6OdY2dBQ", "https://www.youtube.com/watch?v=WkNL_cfVyWU", "https://www.youtube.com/watch?v=Elvrsn0c1YQ"]
+        videos = ["https://www.youtube.com/watch?v=pjS6OdY2dBQ", "https://www.youtube.com/watch?v=WkNL_cfVyWU",
+                  "https://www.youtube.com/watch?v=Elvrsn0c1YQ", "https://www.youtube.com/watch?v=Kbryz0mxuMY"]
         await message.channel.send(random.choice(videos))
 
     elif message.content.lower().find("phone") != -1 and str(message.author) != "Boomer#1951":
